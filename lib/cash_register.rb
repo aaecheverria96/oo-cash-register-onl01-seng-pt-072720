@@ -14,7 +14,9 @@ def add_item(title,price,quantity = 1)
 end
 
 def apply_discount
-@total -= (@discount/10.to_f)
+100 - @discount
+80 * 0.01 = 0.8
+@total * 0.8
 end  #expected to get 800 and the total is 10000 without the discount
 
 end
