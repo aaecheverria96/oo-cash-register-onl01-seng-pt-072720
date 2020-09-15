@@ -18,5 +18,8 @@ applied_discount = (100 - @discount) * 0.01
 @total = applied_discount * @total
 return "After the discount, the total comes to $#{@total.to_i}."
 end
+if
+end
+
 
 end
