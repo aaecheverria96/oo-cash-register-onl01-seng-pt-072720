@@ -23,5 +23,8 @@ else
 end
 end
 
+def items
+  items << add_item
+end
 
 end
