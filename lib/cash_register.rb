@@ -16,10 +16,11 @@ end
 def apply_discount
 applied_discount = (100 - @discount) * 0.01
 @total = applied_discount * @total
-return "After the discount, the total comes to $#{@total.to_i}." || if @discount == 0
-  return "There is no discount to apply."
+if @discount == 0 #return "After the discount, the total comes to $#{@total.to_i}." || if @discount == 0
+  #return "There is no discount to apply."
+#end
 end
-end
+end 
 
 
 end
