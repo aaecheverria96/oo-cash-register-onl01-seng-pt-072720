@@ -14,7 +14,7 @@ def add_item(title,price,quantity = 1)
 end
 
 def apply_discount
-  binding.pry 
+  binding.pry
 applied_discount = (100 - @discount) * 0.01
 @total = applied_discount * @total
 if @discount == 0
