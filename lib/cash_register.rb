@@ -25,6 +25,7 @@ end
 
 def items
   items << add_item
+  item
 end
 
 end
