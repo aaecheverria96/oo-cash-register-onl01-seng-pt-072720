@@ -20,7 +20,7 @@ if @discount == 0 #return "After the discount, the total comes to $#{@total.to_i
   #return "There is no discount to apply."
 #end
 end
-end 
+end
 
 
 end
