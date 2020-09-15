@@ -28,6 +28,10 @@ end
 
 def items
   @items
-end
+end 
+
+def void_last_transaction 
+
+end 
 
 end
