@@ -19,9 +19,8 @@ applied_discount = (100 - @discount) * 0.01
 @total = applied_discount * @total
 if @discount != 0
    return "After the discount, the total comes to $#{@total.to_i}."
-
-  #return "There is no discount to apply."
-#end
+else
+  return "There is no discount to apply."
 end
 end
 
